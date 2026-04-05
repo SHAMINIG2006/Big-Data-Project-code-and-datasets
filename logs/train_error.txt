@@ -1,0 +1,1683 @@
+﻿py : WARNING: Using incubator 
+modules: jdk.incubator.vector
+At line:1 char:1
++ py -3 modules/module5_ml/ml_at
+tack_detection.py 2>&1 | 
+Out-File -File ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : N 
+   otSpecified: (WARNING: Usin  
+  g ...ncubator.vector:String   
+ ) [], RemoteException
+    + FullyQualifiedErrorId : N 
+   ativeCommandError
+ 
+26/03/10 22:09:16 WARN Shell: 
+Did not find winutils.exe: 
+java.io.FileNotFoundException: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset. -see https://cwiki.ap
+ache.org/confluence/display/HADO
+OP2/WindowsProblems
+Using Spark's default log4j 
+profile: org/apache/spark/log4j2
+-defaults.properties
+Setting default log level to 
+"WARN".
+To adjust logging level use 
+sc.setLogLevel(newLevel). For 
+SparkR, use 
+setLogLevel(newLevel).
+26/03/10 22:09:16 WARN 
+NativeCodeLoader: Unable to 
+load native-hadoop library for 
+your platform... using 
+builtin-java classes where 
+applicable
+
+[Stage 0:>                      
+                                
+    (0 + 5) / 5]
+
+                                
+                                
+                
+
+[Stage 12:>                     
+                                
+    (0 + 5) / 5]
+
+[Stage 12:===========>          
+                                
+    (1 + 4) / 5]
+
+                                
+                                
+                
+26/03/10 22:09:30 WARN 
+SparkStringUtils: Truncated the 
+string representation of a plan 
+since it was too large. This 
+behavior can be adjusted by 
+setting 'spark.sql.debug.maxToSt
+ringFields'.
+26/03/10 22:09:31 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.3 
+MiB
+26/03/10 22:09:32 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.3 
+MiB
+26/03/10 22:09:32 ERROR 
+Executor: Exception in task 4.0 
+in stage 31.0 (TID 40)
+org.apache.spark.SparkException:
+ [FAILED_EXECUTE_UDF] User 
+defined function (`VectorAssembl
+er$$Lambda/0x000001cd911f23c8`: 
+(struct<Source Port_double_Vecto
+rAssembler_4b67589e6e44:double,D
+estination Port_double_VectorAss
+embler_4b67589e6e44:double,Packe
+t Length_double_VectorAssembler_
+4b67589e6e44:double,Anomaly Scor
+es:double,Protocol_encoded:struc
+t<type:tinyint,size:int,indices:
+array<int>,values:array<double>>
+,Packet Type_encoded:struct<type
+:tinyint,size:int,indices:array<
+int>,values:array<double>>,Traff
+ic Type_encoded:struct<type:tiny
+int,size:int,indices:array<int>,
+values:array<double>>,Severity L
+evel_encoded:struct<type:tinyint
+,size:int,indices:array<int>,val
+ues:array<double>>>) => struct<t
+ype:tinyint,size:int,indices:arr
+ay<int>,values:array<double>>) 
+failed due to: org.apache.spark.
+SparkException: Encountered 
+null while assembling a row 
+with handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".. SQLSTATE: 39000
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors$.failedExec
+uteUserDefinedFunctionError(Quer
+yExecutionErrors.scala:197)
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors.failedExecu
+teUserDefinedFunctionError(Query
+ExecutionErrors.scala)
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+Caused by: org.apache.spark.Spar
+kException: Encountered null 
+while assembling a row with 
+handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1(VectorAssembler.scala:295)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1$adapted(VectorAssembler.sca
+la:264)
+	at scala.collection.IterableOnc
+eOps.foreach(IterableOnce.scala:
+630)
+	at scala.collection.IterableOnc
+eOps.foreach$(IterableOnce.scala
+:628)
+	at scala.collection.AbstractIte
+rable.foreach(Iterable.scala:936
+)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.assemble(Vector
+Assembler.scala:264)
+	at org.apache.spark.ml.feature.
+VectorAssembler.$anonfun$transfo
+rm$6(VectorAssembler.scala:145)
+	... 23 more
+26/03/10 22:09:32 WARN 
+TaskSetManager: Lost task 4.0 
+in stage 31.0 (TID 40) (LAPTOP 
+executor driver): org.apache.spa
+rk.SparkException: 
+[FAILED_EXECUTE_UDF] User 
+defined function (`VectorAssembl
+er$$Lambda/0x000001cd911f23c8`: 
+(struct<Source Port_double_Vecto
+rAssembler_4b67589e6e44:double,D
+estination Port_double_VectorAss
+embler_4b67589e6e44:double,Packe
+t Length_double_VectorAssembler_
+4b67589e6e44:double,Anomaly Scor
+es:double,Protocol_encoded:struc
+t<type:tinyint,size:int,indices:
+array<int>,values:array<double>>
+,Packet Type_encoded:struct<type
+:tinyint,size:int,indices:array<
+int>,values:array<double>>,Traff
+ic Type_encoded:struct<type:tiny
+int,size:int,indices:array<int>,
+values:array<double>>,Severity L
+evel_encoded:struct<type:tinyint
+,size:int,indices:array<int>,val
+ues:array<double>>>) => struct<t
+ype:tinyint,size:int,indices:arr
+ay<int>,values:array<double>>) 
+failed due to: org.apache.spark.
+SparkException: Encountered 
+null while assembling a row 
+with handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".. SQLSTATE: 39000
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors$.failedExec
+uteUserDefinedFunctionError(Quer
+yExecutionErrors.scala:197)
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors.failedExecu
+teUserDefinedFunctionError(Query
+ExecutionErrors.scala)
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+Caused by: org.apache.spark.Spar
+kException: Encountered null 
+while assembling a row with 
+handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1(VectorAssembler.scala:295)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1$adapted(VectorAssembler.sca
+la:264)
+	at scala.collection.IterableOnc
+eOps.foreach(IterableOnce.scala:
+630)
+	at scala.collection.IterableOnc
+eOps.foreach$(IterableOnce.scala
+:628)
+	at scala.collection.AbstractIte
+rable.foreach(Iterable.scala:936
+)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.assemble(Vector
+Assembler.scala:264)
+	at org.apache.spark.ml.feature.
+VectorAssembler.$anonfun$transfo
+rm$6(VectorAssembler.scala:145)
+	... 23 more
+
+26/03/10 22:09:32 ERROR 
+TaskSetManager: Task 4 in stage 
+31.0 failed 1 times; aborting 
+job
+26/03/10 22:09:32 ERROR 
+Executor: Exception in task 3.0 
+in stage 31.0 (TID 39)
+org.apache.spark.SparkException:
+ [FAILED_EXECUTE_UDF] User 
+defined function (`VectorAssembl
+er$$Lambda/0x000001cd911f23c8`: 
+(struct<Source Port_double_Vecto
+rAssembler_4b67589e6e44:double,D
+estination Port_double_VectorAss
+embler_4b67589e6e44:double,Packe
+t Length_double_VectorAssembler_
+4b67589e6e44:double,Anomaly Scor
+es:double,Protocol_encoded:struc
+t<type:tinyint,size:int,indices:
+array<int>,values:array<double>>
+,Packet Type_encoded:struct<type
+:tinyint,size:int,indices:array<
+int>,values:array<double>>,Traff
+ic Type_encoded:struct<type:tiny
+int,size:int,indices:array<int>,
+values:array<double>>,Severity L
+evel_encoded:struct<type:tinyint
+,size:int,indices:array<int>,val
+ues:array<double>>>) => struct<t
+ype:tinyint,size:int,indices:arr
+ay<int>,values:array<double>>) 
+failed due to: org.apache.spark.
+SparkException: Encountered 
+null while assembling a row 
+with handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".. SQLSTATE: 39000
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors$.failedExec
+uteUserDefinedFunctionError(Quer
+yExecutionErrors.scala:197)
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors.failedExecu
+teUserDefinedFunctionError(Query
+ExecutionErrors.scala)
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+Caused by: org.apache.spark.Spar
+kException: Encountered null 
+while assembling a row with 
+handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1(VectorAssembler.scala:295)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1$adapted(VectorAssembler.sca
+la:264)
+	at scala.collection.IterableOnc
+eOps.foreach(IterableOnce.scala:
+630)
+	at scala.collection.IterableOnc
+eOps.foreach$(IterableOnce.scala
+:628)
+	at scala.collection.AbstractIte
+rable.foreach(Iterable.scala:936
+)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.assemble(Vector
+Assembler.scala:264)
+	at org.apache.spark.ml.feature.
+VectorAssembler.$anonfun$transfo
+rm$6(VectorAssembler.scala:145)
+	... 23 more
+26/03/10 22:09:32 ERROR 
+Executor: Exception in task 0.0 
+in stage 31.0 (TID 36)
+org.apache.spark.SparkException:
+ [FAILED_EXECUTE_UDF] User 
+defined function (`VectorAssembl
+er$$Lambda/0x000001cd911f23c8`: 
+(struct<Source Port_double_Vecto
+rAssembler_4b67589e6e44:double,D
+estination Port_double_VectorAss
+embler_4b67589e6e44:double,Packe
+t Length_double_VectorAssembler_
+4b67589e6e44:double,Anomaly Scor
+es:double,Protocol_encoded:struc
+t<type:tinyint,size:int,indices:
+array<int>,values:array<double>>
+,Packet Type_encoded:struct<type
+:tinyint,size:int,indices:array<
+int>,values:array<double>>,Traff
+ic Type_encoded:struct<type:tiny
+int,size:int,indices:array<int>,
+values:array<double>>,Severity L
+evel_encoded:struct<type:tinyint
+,size:int,indices:array<int>,val
+ues:array<double>>>) => struct<t
+ype:tinyint,size:int,indices:arr
+ay<int>,values:array<double>>) 
+failed due to: org.apache.spark.
+SparkException: Encountered 
+null while assembling a row 
+with handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".. SQLSTATE: 39000
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors$.failedExec
+uteUserDefinedFunctionError(Quer
+yExecutionErrors.scala:197)
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors.failedExecu
+teUserDefinedFunctionError(Query
+ExecutionErrors.scala)
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+Caused by: org.apache.spark.Spar
+kException: Encountered null 
+while assembling a row with 
+handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1(VectorAssembler.scala:295)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1$adapted(VectorAssembler.sca
+la:264)
+	at scala.collection.IterableOnc
+eOps.foreach(IterableOnce.scala:
+630)
+	at scala.collection.IterableOnc
+eOps.foreach$(IterableOnce.scala
+:628)
+	at scala.collection.AbstractIte
+rable.foreach(Iterable.scala:936
+)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.assemble(Vector
+Assembler.scala:264)
+	at org.apache.spark.ml.feature.
+VectorAssembler.$anonfun$transfo
+rm$6(VectorAssembler.scala:145)
+	... 23 more
+26/03/10 22:09:32 ERROR 
+Executor: Exception in task 2.0 
+in stage 31.0 (TID 38)
+org.apache.spark.SparkException:
+ [FAILED_EXECUTE_UDF] User 
+defined function (`VectorAssembl
+er$$Lambda/0x000001cd911f23c8`: 
+(struct<Source Port_double_Vecto
+rAssembler_4b67589e6e44:double,D
+estination Port_double_VectorAss
+embler_4b67589e6e44:double,Packe
+t Length_double_VectorAssembler_
+4b67589e6e44:double,Anomaly Scor
+es:double,Protocol_encoded:struc
+t<type:tinyint,size:int,indices:
+array<int>,values:array<double>>
+,Packet Type_encoded:struct<type
+:tinyint,size:int,indices:array<
+int>,values:array<double>>,Traff
+ic Type_encoded:struct<type:tiny
+int,size:int,indices:array<int>,
+values:array<double>>,Severity L
+evel_encoded:struct<type:tinyint
+,size:int,indices:array<int>,val
+ues:array<double>>>) => struct<t
+ype:tinyint,size:int,indices:arr
+ay<int>,values:array<double>>) 
+failed due to: org.apache.spark.
+SparkException: Encountered 
+null while assembling a row 
+with handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".. SQLSTATE: 39000
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors$.failedExec
+uteUserDefinedFunctionError(Quer
+yExecutionErrors.scala:197)
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors.failedExecu
+teUserDefinedFunctionError(Query
+ExecutionErrors.scala)
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+Caused by: org.apache.spark.Spar
+kException: Encountered null 
+while assembling a row with 
+handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1(VectorAssembler.scala:295)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1$adapted(VectorAssembler.sca
+la:264)
+	at scala.collection.IterableOnc
+eOps.foreach(IterableOnce.scala:
+630)
+	at scala.collection.IterableOnc
+eOps.foreach$(IterableOnce.scala
+:628)
+	at scala.collection.AbstractIte
+rable.foreach(Iterable.scala:936
+)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.assemble(Vector
+Assembler.scala:264)
+	at org.apache.spark.ml.feature.
+VectorAssembler.$anonfun$transfo
+rm$6(VectorAssembler.scala:145)
+	... 23 more
+26/03/10 22:09:32 ERROR 
+Executor: Exception in task 1.0 
+in stage 31.0 (TID 37)
+org.apache.spark.SparkException:
+ [FAILED_EXECUTE_UDF] User 
+defined function (`VectorAssembl
+er$$Lambda/0x000001cd911f23c8`: 
+(struct<Source Port_double_Vecto
+rAssembler_4b67589e6e44:double,D
+estination Port_double_VectorAss
+embler_4b67589e6e44:double,Packe
+t Length_double_VectorAssembler_
+4b67589e6e44:double,Anomaly Scor
+es:double,Protocol_encoded:struc
+t<type:tinyint,size:int,indices:
+array<int>,values:array<double>>
+,Packet Type_encoded:struct<type
+:tinyint,size:int,indices:array<
+int>,values:array<double>>,Traff
+ic Type_encoded:struct<type:tiny
+int,size:int,indices:array<int>,
+values:array<double>>,Severity L
+evel_encoded:struct<type:tinyint
+,size:int,indices:array<int>,val
+ues:array<double>>>) => struct<t
+ype:tinyint,size:int,indices:arr
+ay<int>,values:array<double>>) 
+failed due to: org.apache.spark.
+SparkException: Encountered 
+null while assembling a row 
+with handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".. SQLSTATE: 39000
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors$.failedExec
+uteUserDefinedFunctionError(Quer
+yExecutionErrors.scala:197)
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors.failedExecu
+teUserDefinedFunctionError(Query
+ExecutionErrors.scala)
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+Caused by: org.apache.spark.Spar
+kException: Encountered null 
+while assembling a row with 
+handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1(VectorAssembler.scala:295)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1$adapted(VectorAssembler.sca
+la:264)
+	at scala.collection.IterableOnc
+eOps.foreach(IterableOnce.scala:
+630)
+	at scala.collection.IterableOnc
+eOps.foreach$(IterableOnce.scala
+:628)
+	at scala.collection.AbstractIte
+rable.foreach(Iterable.scala:936
+)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.assemble(Vector
+Assembler.scala:264)
+	at org.apache.spark.ml.feature.
+VectorAssembler.$anonfun$transfo
+rm$6(VectorAssembler.scala:145)
+	... 23 more
+26/03/10 22:09:32 ERROR 
+Instrumentation: org.apache.spar
+k.SparkException: 
+[FAILED_EXECUTE_UDF] User 
+defined function (`VectorAssembl
+er$$Lambda/0x000001cd911f23c8`: 
+(struct<Source Port_double_Vecto
+rAssembler_4b67589e6e44:double,D
+estination Port_double_VectorAss
+embler_4b67589e6e44:double,Packe
+t Length_double_VectorAssembler_
+4b67589e6e44:double,Anomaly Scor
+es:double,Protocol_encoded:struc
+t<type:tinyint,size:int,indices:
+array<int>,values:array<double>>
+,Packet Type_encoded:struct<type
+:tinyint,size:int,indices:array<
+int>,values:array<double>>,Traff
+ic Type_encoded:struct<type:tiny
+int,size:int,indices:array<int>,
+values:array<double>>,Severity L
+evel_encoded:struct<type:tinyint
+,size:int,indices:array<int>,val
+ues:array<double>>>) => struct<t
+ype:tinyint,size:int,indices:arr
+ay<int>,values:array<double>>) 
+failed due to: org.apache.spark.
+SparkException: Encountered 
+null while assembling a row 
+with handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".. SQLSTATE: 39000
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors$.failedExec
+uteUserDefinedFunctionError(Quer
+yExecutionErrors.scala:197)
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors.failedExecu
+teUserDefinedFunctionError(Query
+ExecutionErrors.scala)
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+	at org.apache.spark.scheduler.D
+AGScheduler.runJob(DAGScheduler.
+scala:1017)
+	at org.apache.spark.SparkContex
+t.runJob(SparkContext.scala:2496
+)
+	at org.apache.spark.SparkContex
+t.runJob(SparkContext.scala:2591
+)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$1(RDD.scala:1236
+)
+	at org.apache.spark.rdd.RDDOper
+ationScope$.withScope(RDDOperati
+onScope.scala:151)
+	at org.apache.spark.rdd.RDDOper
+ationScope$.withScope(RDDOperati
+onScope.scala:112)
+	at org.apache.spark.rdd.RDD.wit
+hScope(RDD.scala:417)
+	at org.apache.spark.rdd.RDD.agg
+regate(RDD.scala:1230)
+	at org.apache.spark.ml.tree.imp
+l.DecisionTreeMetadata$.buildMet
+adata(DecisionTreeMetadata.scala
+:125)
+	at org.apache.spark.ml.tree.imp
+l.RandomForest$.run(RandomForest
+.scala:303)
+	at org.apache.spark.ml.classifi
+cation.RandomForestClassifier.$a
+nonfun$train$1(RandomForestClass
+ifier.scala:168)
+	at org.apache.spark.ml.util.Ins
+trumentation$.$anonfun$instrumen
+ted$1(Instrumentation.scala:226)
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+	at org.apache.spark.ml.util.Ins
+trumentation$.instrumented(Instr
+umentation.scala:226)
+	at org.apache.spark.ml.classifi
+cation.RandomForestClassifier.tr
+ain(RandomForestClassifier.scala
+:139)
+	at org.apache.spark.ml.classifi
+cation.RandomForestClassifier.tr
+ain(RandomForestClassifier.scala
+:47)
+	at org.apache.spark.ml.Predicto
+r.fit(Predictor.scala:115)
+	at java.base/jdk.internal.refle
+ct.DirectMethodHandleAccessor.in
+voke(DirectMethodHandleAccessor.
+java:103)
+	at java.base/java.lang.reflect.
+Method.invoke(Method.java:580)
+	at py4j.reflection.MethodInvoke
+r.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEn
+gine.invoke(ReflectionEngine.jav
+a:374)
+	at py4j.Gateway.invoke(Gateway.
+java:282)
+	at py4j.commands.AbstractComman
+d.invokeMethod(AbstractCommand.j
+ava:132)
+	at py4j.commands.CallCommand.ex
+ecute(CallCommand.java:79)
+	at py4j.ClientServerConnection.
+waitForCommands(ClientServerConn
+ection.java:184)
+	at py4j.ClientServerConnection.
+run(ClientServerConnection.java:
+108)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+Caused by: org.apache.spark.Spar
+kException: Encountered null 
+while assembling a row with 
+handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1(VectorAssembler.scala:295)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1$adapted(VectorAssembler.sca
+la:264)
+	at scala.collection.IterableOnc
+eOps.foreach(IterableOnce.scala:
+630)
+	at scala.collection.IterableOnc
+eOps.foreach$(IterableOnce.scala
+:628)
+	at scala.collection.AbstractIte
+rable.foreach(Iterable.scala:936
+)
+	at org.apache.spark.ml.feature.
+VectorAssembler$.assemble(Vector
+Assembler.scala:264)
+	at org.apache.spark.ml.feature.
+VectorAssembler.$anonfun$transfo
+rm$6(VectorAssembler.scala:145)
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+	... 1 more
+
+Training model...
+Traceback (most recent call 
+last):
+  File "D:\Sem6\BigData\project\
+modules\module5_ml\ml_attack_det
+ection.py", line 91, in <module>
+    train_and_save_model()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Sem6\BigData\project\
+modules\module5_ml\ml_attack_det
+ection.py", line 76, in 
+train_and_save_model
+    model = 
+pipeline.fit(train_data)
+  File "D:\Python\Lib\site-packa
+ges\pyspark\ml\base.py", line 
+203, in fit
+    return self._fit(dataset)
+           ~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Lib\site-packa
+ges\pyspark\ml\pipeline.py", 
+line 136, in _fit
+    model = stage.fit(dataset)
+  File "D:\Python\Lib\site-packa
+ges\pyspark\ml\base.py", line 
+203, in fit
+    return self._fit(dataset)
+           ~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Lib\site-packa
+ges\pyspark\ml\util.py", line 
+211, in wrapped
+    return f(self, dataset)
+  File "D:\Python\Lib\site-packa
+ges\pyspark\ml\wrapper.py", 
+line 417, in _fit
+    java_model = 
+self._fit_java(dataset)
+  File "D:\Python\Lib\site-packa
+ges\pyspark\ml\wrapper.py", 
+line 413, in _fit_java
+    return 
+self._java_obj.fit(dataset._jdf)
+           
+~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Python\Lib\site-packa
+ges\py4j\java_gateway.py", line 
+1362, in __call__
+    return_value = 
+get_return_value(
+        answer, 
+self.gateway_client, 
+self.target_id, self.name)
+  File "D:\Python\Lib\site-packa
+ges\pyspark\errors\exceptions\ca
+ptured.py", line 263, in deco
+    return f(*a, **kw)
+  File "D:\Python\Lib\site-packa
+ges\py4j\protocol.py", line 
+327, in get_return_value
+    raise Py4JJavaError(
+        "An error occurred 
+while calling {0}{1}{2}.\n".
+        format(target_id, ".", 
+name), value)
+py4j.protocol.Py4JJavaError: An 
+error occurred while calling 
+o43.fit.
+: org.apache.spark.SparkExceptio
+n: [FAILED_EXECUTE_UDF] User 
+defined function (`VectorAssembl
+er$$Lambda/0x000001cd911f23c8`: 
+(struct<Source Port_double_Vecto
+rAssembler_4b67589e6e44:double,D
+estination Port_double_VectorAss
+embler_4b67589e6e44:double,Packe
+t Length_double_VectorAssembler_
+4b67589e6e44:double,Anomaly Scor
+es:double,Protocol_encoded:struc
+t<type:tinyint,size:int,indices:
+array<int>,values:array<double>>
+,Packet Type_encoded:struct<type
+:tinyint,size:int,indices:array<
+int>,values:array<double>>,Traff
+ic Type_encoded:struct<type:tiny
+int,size:int,indices:array<int>,
+values:array<double>>,Severity L
+evel_encoded:struct<type:tinyint
+,size:int,indices:array<int>,val
+ues:array<double>>>) => struct<t
+ype:tinyint,size:int,indices:arr
+ay<int>,values:array<double>>) 
+failed due to: org.apache.spark.
+SparkException: Encountered 
+null while assembling a row 
+with handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".. SQLSTATE: 39000
+
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors$.failedExec
+uteUserDefinedFunctionError(Quer
+yExecutionErrors.scala:197)
+
+	at org.apache.spark.sql.errors.
+QueryExecutionErrors.failedExecu
+teUserDefinedFunctionError(Query
+ExecutionErrors.scala)
+
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+
+	at org.apache.spark.scheduler.D
+AGScheduler.runJob(DAGScheduler.
+scala:1017)
+
+	at org.apache.spark.SparkContex
+t.runJob(SparkContext.scala:2496
+)
+
+	at org.apache.spark.SparkContex
+t.runJob(SparkContext.scala:2591
+)
+
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$1(RDD.scala:1236
+)
+
+	at org.apache.spark.rdd.RDDOper
+ationScope$.withScope(RDDOperati
+onScope.scala:151)
+
+	at org.apache.spark.rdd.RDDOper
+ationScope$.withScope(RDDOperati
+onScope.scala:112)
+
+	at org.apache.spark.rdd.RDD.wit
+hScope(RDD.scala:417)
+
+	at org.apache.spark.rdd.RDD.agg
+regate(RDD.scala:1230)
+
+	at org.apache.spark.ml.tree.imp
+l.DecisionTreeMetadata$.buildMet
+adata(DecisionTreeMetadata.scala
+:125)
+
+	at org.apache.spark.ml.tree.imp
+l.RandomForest$.run(RandomForest
+.scala:303)
+
+	at org.apache.spark.ml.classifi
+cation.RandomForestClassifier.$a
+nonfun$train$1(RandomForestClass
+ifier.scala:168)
+
+	at org.apache.spark.ml.util.Ins
+trumentation$.$anonfun$instrumen
+ted$1(Instrumentation.scala:226)
+
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+
+	at org.apache.spark.ml.util.Ins
+trumentation$.instrumented(Instr
+umentation.scala:226)
+
+	at org.apache.spark.ml.classifi
+cation.RandomForestClassifier.tr
+ain(RandomForestClassifier.scala
+:139)
+
+	at org.apache.spark.ml.classifi
+cation.RandomForestClassifier.tr
+ain(RandomForestClassifier.scala
+:47)
+
+	at org.apache.spark.ml.Predicto
+r.fit(Predictor.scala:115)
+
+	at java.base/jdk.internal.refle
+ct.DirectMethodHandleAccessor.in
+voke(DirectMethodHandleAccessor.
+java:103)
+
+	at java.base/java.lang.reflect.
+Method.invoke(Method.java:580)
+
+	at py4j.reflection.MethodInvoke
+r.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEn
+gine.invoke(ReflectionEngine.jav
+a:374)
+
+	at py4j.Gateway.invoke(Gateway.
+java:282)
+
+	at py4j.commands.AbstractComman
+d.invokeMethod(AbstractCommand.j
+ava:132)
+
+	at py4j.commands.CallCommand.ex
+ecute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.
+waitForCommands(ClientServerConn
+ection.java:184)
+
+	at py4j.ClientServerConnection.
+run(ClientServerConnection.java:
+108)
+
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+
+Caused by: org.apache.spark.Spar
+kException: Encountered null 
+while assembling a row with 
+handleInvalid = "error". 
+Consider
+removing nulls from dataset or 
+using handleInvalid = "keep" or 
+"skip".
+
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1(VectorAssembler.scala:295)
+
+	at org.apache.spark.ml.feature.
+VectorAssembler$.$anonfun$assemb
+le$1$adapted(VectorAssembler.sca
+la:264)
+
+	at scala.collection.IterableOnc
+eOps.foreach(IterableOnce.scala:
+630)
+
+	at scala.collection.IterableOnc
+eOps.foreach$(IterableOnce.scala
+:628)
+
+	at scala.collection.AbstractIte
+rable.foreach(Iterable.scala:936
+)
+
+	at org.apache.spark.ml.feature.
+VectorAssembler$.assemble(Vector
+Assembler.scala:264)
+
+	at org.apache.spark.ml.feature.
+VectorAssembler.$anonfun$transfo
+rm$6(VectorAssembler.scala:145)
+
+	at org.apache.spark.sql.catalys
+t.expressions.GeneratedClass$Gen
+eratedIteratorForCodegenStage1.p
+rocessNext(Unknown Source)
+
+	at org.apache.spark.sql.executi
+on.BufferedRowIterator.hasNext(B
+ufferedRowIterator.java:43)
+
+	at org.apache.spark.sql.executi
+on.WholeStageCodegenEvaluatorFac
+tory$WholeStageCodegenPartitionE
+valuator$$anon$1.hasNext(WholeSt
+ageCodegenEvaluatorFactory.scala
+:50)
+
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+
+	at scala.collection.Iterator$$a
+non$9.hasNext(Iterator.scala:593
+)
+
+	at scala.collection.IterableOnc
+eOps.foldLeft(IterableOnce.scala
+:737)
+
+	at scala.collection.IterableOnc
+eOps.foldLeft$(IterableOnce.scal
+a:732)
+
+	at scala.collection.AbstractIte
+rator.foldLeft(Iterator.scala:13
+13)
+
+	at org.apache.spark.rdd.RDD.$an
+onfun$aggregate$2(RDD.scala:1234
+)
+
+	at org.apache.spark.SparkContex
+t.$anonfun$runJob$6(SparkContext
+.scala:2590)
+
+	at org.apache.spark.scheduler.R
+esultTask.runTask(ResultTask.sca
+la:93)
+
+	at org.apache.spark.TaskContext
+.runTaskWithListeners(TaskContex
+t.scala:180)
+
+	at org.apache.spark.scheduler.T
+ask.run(Task.scala:147)
+
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.$anonfun$run$5
+(Executor.scala:716)
+
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally(Spa
+rkErrorUtils.scala:86)
+
+	at org.apache.spark.util.SparkE
+rrorUtils.tryWithSafeFinally$(Sp
+arkErrorUtils.scala:83)
+
+	at org.apache.spark.util.Utils$
+.tryWithSafeFinally(Utils.scala:
+97)
+
+	at org.apache.spark.executor.Ex
+ecutor$TaskRunner.run(Executor.s
+cala:719)
+
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor.runWorker(
+ThreadPoolExecutor.java:1144)
+
+	at java.base/java.util.concurre
+nt.ThreadPoolExecutor$Worker.run
+(ThreadPoolExecutor.java:642)
+
+	... 1 more
+
+
+SUCCESS: The process with PID 24020 (child process of PID 12996) has been terminated.
+SUCCESS: The process with PID 12996 (child process of PID 17104) has been terminated.
+SUCCESS: The process with PID 17104 (child process of PID 7196) has been terminated.

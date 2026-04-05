@@ -1,0 +1,2459 @@
+﻿py : WARNING: Using incubator 
+modules: jdk.incubator.vector
+At line:1 char:1
++ py -3 modules/module5_ml/ml_at
+tack_detection.py 2>&1 | 
+Out-File -File ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : N 
+   otSpecified: (WARNING: Usin  
+  g ...ncubator.vector:String   
+ ) [], RemoteException
+    + FullyQualifiedErrorId : N 
+   ativeCommandError
+ 
+26/03/10 22:10:25 WARN Shell: 
+Did not find winutils.exe: 
+java.io.FileNotFoundException: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset. -see https://cwiki.ap
+ache.org/confluence/display/HADO
+OP2/WindowsProblems
+Using Spark's default log4j 
+profile: org/apache/spark/log4j2
+-defaults.properties
+Setting default log level to 
+"WARN".
+To adjust logging level use 
+sc.setLogLevel(newLevel). For 
+SparkR, use 
+setLogLevel(newLevel).
+26/03/10 22:10:26 WARN 
+NativeCodeLoader: Unable to 
+load native-hadoop library for 
+your platform... using 
+builtin-java classes where 
+applicable
+
+[Stage 0:>                      
+                                
+    (0 + 5) / 5]
+
+                                
+                                
+                
+
+[Stage 12:>                     
+                                
+    (0 + 5) / 5]
+
+[Stage 12:===========>          
+                                
+    (1 + 4) / 5]
+
+                                
+                                
+                
+26/03/10 22:10:40 WARN 
+SparkStringUtils: Truncated the 
+string representation of a plan 
+since it was too large. This 
+behavior can be adjusted by 
+setting 'spark.sql.debug.maxToSt
+ringFields'.
+26/03/10 22:10:41 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.3 
+MiB
+
+[Stage 30:>                     
+                                
+    (0 + 1) / 1]
+
+                                
+                                
+                
+26/03/10 22:10:41 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.3 
+MiB
+
+[Stage 31:===========>          
+                                
+    (1 + 4) / 5]
+
+                                
+                                
+                
+26/03/10 22:10:42 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.3 
+MiB
+
+[Stage 32:===========>          
+                                
+    (1 + 4) / 5]
+
+                                
+                                
+                
+26/03/10 22:10:43 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.9 
+MiB
+
+[Stage 34:>                     
+                                
+    (0 + 5) / 5]
+26/03/10 22:10:45 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_1 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:45 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_0 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:45 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_2 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:45 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_3 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:45 WARN 
+BlockManager: Persisting block 
+rdd_77_0 to disk instead.
+26/03/10 22:10:45 WARN 
+BlockManager: Persisting block 
+rdd_77_2 to disk instead.
+26/03/10 22:10:45 WARN 
+BlockManager: Persisting block 
+rdd_77_1 to disk instead.
+26/03/10 22:10:45 WARN 
+BlockManager: Persisting block 
+rdd_77_3 to disk instead.
+
+[Stage 34:===========>          
+                                
+    (1 + 4) / 5]
+26/03/10 22:10:46 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_0 in memory! 
+(computed 48.1 MiB so far)
+26/03/10 22:10:46 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_1 in memory! 
+(computed 111.3 MiB so far)
+26/03/10 22:10:46 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_3 in memory! 
+(computed 111.3 MiB so far)
+26/03/10 22:10:46 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_2 in memory! 
+(computed 13.8 MiB so far)
+
+                                
+                                
+                
+26/03/10 22:10:48 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.9 
+MiB
+26/03/10 22:10:48 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_1 in memory! 
+(computed 48.1 MiB so far)
+26/03/10 22:10:48 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_0 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:48 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_2 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:48 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_3 in memory! 
+(computed 72.6 MiB so far)
+
+[Stage 36:>                     
+                                
+    (0 + 5) / 5]
+
+[Stage 36:===========>          
+                                
+    (1 + 4) / 5]
+
+                                
+                                
+                
+26/03/10 22:10:50 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.9 
+MiB
+26/03/10 22:10:50 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_2 in memory! 
+(computed 48.1 MiB so far)
+26/03/10 22:10:50 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_1 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:50 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_3 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:50 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_0 in memory! 
+(computed 72.6 MiB so far)
+
+[Stage 38:===========>          
+                                
+    (1 + 4) / 5]
+
+                                
+                                
+                
+26/03/10 22:10:52 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.9 
+MiB
+26/03/10 22:10:52 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_2 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:52 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_1 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:52 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_3 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:52 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_0 in memory! 
+(computed 48.1 MiB so far)
+
+[Stage 40:>                     
+                                
+    (0 + 5) / 5]
+
+[Stage 40:===========>          
+                                
+    (1 + 4) / 5]
+
+[Stage 
+40:=======================>     
+                             (2 
++ 3) / 5]
+
+                                
+                                
+                
+26/03/10 22:10:54 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.9 
+MiB
+26/03/10 22:10:54 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_2 in memory! 
+(computed 48.1 MiB so far)
+26/03/10 22:10:54 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_0 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:54 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_3 in memory! 
+(computed 72.6 MiB so far)
+26/03/10 22:10:54 WARN 
+MemoryStore: Not enough space 
+to cache rdd_77_1 in memory! 
+(computed 72.6 MiB so far)
+
+[Stage 42:>                     
+                                
+    (0 + 5) / 5]
+
+[Stage 42:===========>          
+                                
+    (1 + 4) / 5]
+
+[Stage 42:======================
+========================>       
+    (4 + 1) / 5]
+
+                                
+                                
+                
+26/03/10 22:10:56 WARN 
+DAGScheduler: Broadcasting 
+large task binary with size 2.3 
+MiB
+
+[Stage 44:===========>          
+                                
+    (1 + 4) / 5]
+
+                                
+                                
+                
+26/03/10 22:10:57 ERROR 
+Instrumentation: 
+java.lang.RuntimeException: 
+java.io.FileNotFoundException: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset. -see https://cwiki.ap
+ache.org/confluence/display/HADO
+OP2/WindowsProblems
+	at org.apache.hadoop.util.Shell
+.getWinUtilsPath(Shell.java:789)
+	at org.apache.hadoop.util.Shell
+.getSetPermissionCommand(Shell.j
+ava:298)
+	at org.apache.hadoop.util.Shell
+.getSetPermissionCommand(Shell.j
+ava:314)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.setPermission(RawLoc
+alFileSystem.java:1179)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkOneDirWithMode(Raw
+LocalFileSystem.java:861)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:901)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+	at org.apache.hadoop.fs.Checksu
+mFileSystem.mkdirs(ChecksumFileS
+ystem.java:1047)
+	at org.apache.hadoop.mapreduce.
+lib.output.FileOutputCommitter.s
+etupJob(FileOutputCommitter.java
+:356)
+	at org.apache.spark.internal.io
+.HadoopMapReduceCommitProtocol.s
+etupJob(HadoopMapReduceCommitPro
+tocol.scala:180)
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.writeAndCommit(FileFormatWriter
+.scala:268)
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.executeWrite(FileFormatWriter.s
+cala:306)
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.write(FileFormatWriter.scala:18
+9)
+	at org.apache.spark.sql.executi
+on.datasources.InsertIntoHadoopF
+sRelationCommand.run(InsertIntoH
+adoopFsRelationCommand.scala:195
+)
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.sideEffectResult$lzycompute(co
+mmands.scala:117)
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.sideEffectResult(commands.scal
+a:115)
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.executeCollect(commands.scala:
+129)
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$eager
+lyExecuteCommands$2(QueryExecuti
+on.scala:185)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$8(SQLExecution.sca
+la:177)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withSessionTags
+Applied(SQLExecution.scala:285)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$7(SQLExecution.sca
+la:139)
+	at org.apache.spark.JobArtifact
+Set$.withActiveJobArtifactState(
+JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.$anonfun$withR
+esources$1(ArtifactManager.scala
+:112)
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.withClassLoade
+rIfNeeded(ArtifactManager.scala:
+106)
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.withResources(
+ArtifactManager.scala:111)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$6(SQLExecution.sca
+la:139)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withSQLConfProp
+agated(SQLExecution.scala:308)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$1(SQLExecution.sca
+la:138)
+	at org.apache.spark.sql.SparkSe
+ssion.withActive(SparkSession.sc
+ala:804)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withNewExecutio
+nId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withNewExecutio
+nId(SQLExecution.scala:250)
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$eager
+lyExecuteCommands$1(QueryExecuti
+on.scala:185)
+	at org.apache.spark.sql.executi
+on.QueryExecution$.withInternalE
+rror(QueryExecution.scala:717)
+	at org.apache.spark.sql.executi
+on.QueryExecution.org$apache$spa
+rk$sql$execution$QueryExecution$
+$eagerlyExecute$1(QueryExecution
+.scala:184)
+	at org.apache.spark.sql.executi
+on.QueryExecution$$anonfun$eager
+lyExecuteCommands$3.applyOrElse(
+QueryExecution.scala:201)
+	at org.apache.spark.sql.executi
+on.QueryExecution$$anonfun$eager
+lyExecuteCommands$3.applyOrElse(
+QueryExecution.scala:194)
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.$anonfun$transf
+ormDownWithPruning$1(TreeNode.sc
+ala:491)
+	at org.apache.spark.sql.catalys
+t.trees.CurrentOrigin$.withOrigi
+n(origin.scala:107)
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.transformDownWi
+thPruning(TreeNode.scala:491)
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.org$
+apache$spark$sql$catalyst$plans$
+logical$AnalysisHelper$$super$tr
+ansformDownWithPruning(LogicalPl
+an.scala:37)
+	at org.apache.spark.sql.catalys
+t.plans.logical.AnalysisHelper.t
+ransformDownWithPruning(Analysis
+Helper.scala:360)
+	at org.apache.spark.sql.catalys
+t.plans.logical.AnalysisHelper.t
+ransformDownWithPruning$(Analysi
+sHelper.scala:356)
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.tran
+sformDownWithPruning(LogicalPlan
+.scala:37)
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.tran
+sformDownWithPruning(LogicalPlan
+.scala:37)
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.transformDown(T
+reeNode.scala:467)
+	at org.apache.spark.sql.executi
+on.QueryExecution.eagerlyExecute
+Commands(QueryExecution.scala:19
+4)
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$lazyC
+ommandExecuted$1(QueryExecution.
+scala:155)
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+	at org.apache.spark.util.Utils$
+.doTryWithCallerStacktrace(Utils
+.scala:1392)
+	at org.apache.spark.util.Utils$
+.getTryWithCallerStacktrace(Util
+s.scala:1453)
+	at org.apache.spark.util.LazyTr
+y.get(LazyTry.scala:58)
+	at org.apache.spark.sql.executi
+on.QueryExecution.commandExecute
+d(QueryExecution.scala:160)
+	at org.apache.spark.sql.executi
+on.QueryExecution.assertCommandE
+xecuted(QueryExecution.scala:239
+)
+	at org.apache.spark.sql.classic
+.DataFrameWriter.runCommand(Data
+FrameWriter.scala:592)
+	at org.apache.spark.sql.classic
+.DataFrameWriter.save(DataFrameW
+riter.scala:115)
+	at org.apache.spark.sql.DataFra
+meWriter.text(DataFrameWriter.sc
+ala:409)
+	at org.apache.spark.ml.util.Rea
+dWriteUtils$.saveText(ReadWrite.
+scala:1050)
+	at org.apache.spark.ml.util.Def
+aultParamsWriter$.saveMetadata(R
+eadWrite.scala:477)
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.$anonfun$saveI
+mpl$1(Pipeline.scala:264)
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.$anonfun$saveI
+mpl$1$adapted(Pipeline.scala:261
+)
+	at org.apache.spark.ml.util.Ins
+trumentation$.$anonfun$instrumen
+ted$1(Instrumentation.scala:226)
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+	at org.apache.spark.ml.util.Ins
+trumentation$.instrumented(Instr
+umentation.scala:226)
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.saveImpl(Pipel
+ine.scala:261)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.saveIm
+pl(Pipeline.scala:370)
+	at org.apache.spark.ml.util.MLW
+riter.save(ReadWrite.scala:176)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.super$
+save(Pipeline.scala:368)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$4(Pipeline.scala:368)
+	at org.apache.spark.ml.MLEvents
+.withSaveInstanceEvent(events.sc
+ala:174)
+	at org.apache.spark.ml.MLEvents
+.withSaveInstanceEvent$(events.s
+cala:169)
+	at org.apache.spark.ml.util.Ins
+trumentation.withSaveInstanceEve
+nt(Instrumentation.scala:44)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$3(Pipeline.scala:368)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$3$adapted(Pipeline.scala
+:368)
+	at org.apache.spark.ml.util.Ins
+trumentation$.$anonfun$instrumen
+ted$1(Instrumentation.scala:226)
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+	at org.apache.spark.ml.util.Ins
+trumentation$.instrumented(Instr
+umentation.scala:226)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.save(P
+ipeline.scala:368)
+	at java.base/jdk.internal.refle
+ct.DirectMethodHandleAccessor.in
+voke(DirectMethodHandleAccessor.
+java:103)
+	at java.base/java.lang.reflect.
+Method.invoke(Method.java:580)
+	at py4j.reflection.MethodInvoke
+r.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEn
+gine.invoke(ReflectionEngine.jav
+a:374)
+	at py4j.Gateway.invoke(Gateway.
+java:282)
+	at py4j.commands.AbstractComman
+d.invokeMethod(AbstractCommand.j
+ava:132)
+	at py4j.commands.CallCommand.ex
+ecute(CallCommand.java:79)
+	at py4j.ClientServerConnection.
+waitForCommands(ClientServerConn
+ection.java:184)
+	at py4j.ClientServerConnection.
+run(ClientServerConnection.java:
+108)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+	Suppressed: org.apache.spark.ut
+il.Utils$OriginalTryStackTraceEx
+ception: Full stacktrace of 
+original 
+doTryWithCallerStacktrace caller
+		at org.apache.hadoop.util.Shel
+l.getWinUtilsPath(Shell.java:789
+)
+		at org.apache.hadoop.util.Shel
+l.getSetPermissionCommand(Shell.
+java:298)
+		at org.apache.hadoop.util.Shel
+l.getSetPermissionCommand(Shell.
+java:314)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.setPermission(RawLo
+calFileSystem.java:1179)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkOneDirWithMode(Ra
+wLocalFileSystem.java:861)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:901)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+		at org.apache.hadoop.fs.Checks
+umFileSystem.mkdirs(ChecksumFile
+System.java:1047)
+		at org.apache.hadoop.mapreduce
+.lib.output.FileOutputCommitter.
+setupJob(FileOutputCommitter.jav
+a:356)
+		at org.apache.spark.internal.i
+o.HadoopMapReduceCommitProtocol.
+setupJob(HadoopMapReduceCommitPr
+otocol.scala:180)
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.writeAndCommit(FileFormatWrite
+r.scala:268)
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.executeWrite(FileFormatWriter.
+scala:306)
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.write(FileFormatWriter.scala:1
+89)
+		at org.apache.spark.sql.execut
+ion.datasources.InsertIntoHadoop
+FsRelationCommand.run(InsertInto
+HadoopFsRelationCommand.scala:19
+5)
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.sideEffectResult$lzycompute(c
+ommands.scala:117)
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.sideEffectResult(commands.sca
+la:115)
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.executeCollect(commands.scala
+:129)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$eage
+rlyExecuteCommands$2(QueryExecut
+ion.scala:185)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$8(SQLExecution.sc
+ala:177)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withSessionTag
+sApplied(SQLExecution.scala:285)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$7(SQLExecution.sc
+ala:139)
+		at org.apache.spark.JobArtifac
+tSet$.withActiveJobArtifactState
+(JobArtifactSet.scala:94)
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.$anonfun$with
+Resources$1(ArtifactManager.scal
+a:112)
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.withClassLoad
+erIfNeeded(ArtifactManager.scala
+:106)
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.withResources
+(ArtifactManager.scala:111)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$6(SQLExecution.sc
+ala:139)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withSQLConfPro
+pagated(SQLExecution.scala:308)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$1(SQLExecution.sc
+ala:138)
+		at org.apache.spark.sql.SparkS
+ession.withActive(SparkSession.s
+cala:804)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withNewExecuti
+onId0(SQLExecution.scala:92)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withNewExecuti
+onId(SQLExecution.scala:250)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$eage
+rlyExecuteCommands$1(QueryExecut
+ion.scala:185)
+		at org.apache.spark.sql.execut
+ion.QueryExecution$.withInternal
+Error(QueryExecution.scala:717)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.org$apache$sp
+ark$sql$execution$QueryExecution
+$$eagerlyExecute$1(QueryExecutio
+n.scala:184)
+		at org.apache.spark.sql.execut
+ion.QueryExecution$$anonfun$eage
+rlyExecuteCommands$3.applyOrElse
+(QueryExecution.scala:201)
+		at org.apache.spark.sql.execut
+ion.QueryExecution$$anonfun$eage
+rlyExecuteCommands$3.applyOrElse
+(QueryExecution.scala:194)
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.$anonfun$trans
+formDownWithPruning$1(TreeNode.s
+cala:491)
+		at org.apache.spark.sql.cataly
+st.trees.CurrentOrigin$.withOrig
+in(origin.scala:107)
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.transformDownW
+ithPruning(TreeNode.scala:491)
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.org
+$apache$spark$sql$catalyst$plans
+$logical$AnalysisHelper$$super$t
+ransformDownWithPruning(LogicalP
+lan.scala:37)
+		at org.apache.spark.sql.cataly
+st.plans.logical.AnalysisHelper.
+transformDownWithPruning(Analysi
+sHelper.scala:360)
+		at org.apache.spark.sql.cataly
+st.plans.logical.AnalysisHelper.
+transformDownWithPruning$(Analys
+isHelper.scala:356)
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.tra
+nsformDownWithPruning(LogicalPla
+n.scala:37)
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.tra
+nsformDownWithPruning(LogicalPla
+n.scala:37)
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.transformDown(
+TreeNode.scala:467)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.eagerlyExecut
+eCommands(QueryExecution.scala:1
+94)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$lazy
+CommandExecuted$1(QueryExecution
+.scala:155)
+		at scala.util.Try$.apply(Try.s
+cala:217)
+		at org.apache.spark.util.Utils
+$.doTryWithCallerStacktrace(Util
+s.scala:1392)
+		at org.apache.spark.util.LazyT
+ry.tryT$lzycompute(LazyTry.scala
+:46)
+		at org.apache.spark.util.LazyT
+ry.tryT(LazyTry.scala:46)
+		... 37 more
+Caused by: 
+java.io.FileNotFoundException: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset. -see https://cwiki.ap
+ache.org/confluence/display/HADO
+OP2/WindowsProblems
+	at org.apache.hadoop.util.Shell
+.fileNotFoundException(Shell.jav
+a:601)
+	at org.apache.hadoop.util.Shell
+.getHadoopHomeDir(Shell.java:622
+)
+	at org.apache.hadoop.util.Shell
+.getQualifiedBin(Shell.java:645)
+	at org.apache.hadoop.util.Shell
+.<clinit>(Shell.java:742)
+	at org.apache.hadoop.util.Strin
+gUtils.<clinit>(StringUtils.java
+:80)
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDurationHelper(C
+onfiguration.java:1954)
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDuration(Configu
+ration.java:1912)
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDuration(Configu
+ration.java:1885)
+	at org.apache.hadoop.util.Shutd
+ownHookManager.getShutdownTimeou
+t(ShutdownHookManager.java:183)
+	at org.apache.hadoop.util.Shutd
+ownHookManager$HookEntry.<init>(
+ShutdownHookManager.java:207)
+	at org.apache.hadoop.util.Shutd
+ownHookManager.addShutdownHook(S
+hutdownHookManager.java:304)
+	at org.apache.spark.util.SparkS
+hutdownHookManager.$anonfun$inst
+all$1(ShutdownHookManager.scala:
+194)
+	at scala.runtime.java8.JFunctio
+n0$mcV$sp.apply(JFunction0$mcV$s
+p.scala:18)
+	at scala.Option.fold(Option.sca
+la:263)
+	at org.apache.spark.util.SparkS
+hutdownHookManager.install(Shutd
+ownHookManager.scala:195)
+	at org.apache.spark.util.Shutdo
+wnHookManager$.shutdownHooks$lzy
+compute(ShutdownHookManager.scal
+a:55)
+	at org.apache.spark.util.Shutdo
+wnHookManager$.shutdownHooks(Shu
+tdownHookManager.scala:53)
+	at org.apache.spark.util.Shutdo
+wnHookManager$.addShutdownHook(S
+hutdownHookManager.scala:159)
+	at org.apache.spark.util.Shutdo
+wnHookManager$.<clinit>(Shutdown
+HookManager.scala:63)
+	at org.apache.spark.util.Utils$
+.createTempDir(Utils.scala:249)
+	at org.apache.spark.util.SparkF
+ileUtils.createTempDir(SparkFile
+Utils.scala:125)
+	at org.apache.spark.util.SparkF
+ileUtils.createTempDir$(SparkFil
+eUtils.scala:124)
+	at org.apache.spark.util.Utils$
+.createTempDir(Utils.scala:97)
+	at org.apache.spark.deploy.Spar
+kSubmit.prepareSubmitEnvironment
+(SparkSubmit.scala:378)
+	at org.apache.spark.deploy.Spar
+kSubmit.org$apache$spark$deploy$
+SparkSubmit$$runMain(SparkSubmit
+.scala:962)
+	at org.apache.spark.deploy.Spar
+kSubmit.doRunMain$1(SparkSubmit.
+scala:203)
+	at org.apache.spark.deploy.Spar
+kSubmit.submit(SparkSubmit.scala
+:226)
+	at org.apache.spark.deploy.Spar
+kSubmit.doSubmit(SparkSubmit.sca
+la:95)
+	at org.apache.spark.deploy.Spar
+kSubmit$$anon$2.doSubmit(SparkSu
+bmit.scala:1168)
+	at org.apache.spark.deploy.Spar
+kSubmit$.main(SparkSubmit.scala:
+1177)
+	at org.apache.spark.deploy.Spar
+kSubmit.main(SparkSubmit.scala)
+Caused by: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset.
+	at org.apache.hadoop.util.Shell
+.checkHadoopHomeInner(Shell.java
+:521)
+	at org.apache.hadoop.util.Shell
+.checkHadoopHome(Shell.java:492)
+	at org.apache.hadoop.util.Shell
+.<clinit>(Shell.java:569)
+	... 27 more
+
+26/03/10 22:10:57 ERROR 
+Instrumentation: 
+java.lang.RuntimeException: 
+java.io.FileNotFoundException: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset. -see https://cwiki.ap
+ache.org/confluence/display/HADO
+OP2/WindowsProblems
+	at org.apache.hadoop.util.Shell
+.getWinUtilsPath(Shell.java:789)
+	at org.apache.hadoop.util.Shell
+.getSetPermissionCommand(Shell.j
+ava:298)
+	at org.apache.hadoop.util.Shell
+.getSetPermissionCommand(Shell.j
+ava:314)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.setPermission(RawLoc
+alFileSystem.java:1179)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkOneDirWithMode(Raw
+LocalFileSystem.java:861)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:901)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+	at org.apache.hadoop.fs.Checksu
+mFileSystem.mkdirs(ChecksumFileS
+ystem.java:1047)
+	at org.apache.hadoop.mapreduce.
+lib.output.FileOutputCommitter.s
+etupJob(FileOutputCommitter.java
+:356)
+	at org.apache.spark.internal.io
+.HadoopMapReduceCommitProtocol.s
+etupJob(HadoopMapReduceCommitPro
+tocol.scala:180)
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.writeAndCommit(FileFormatWriter
+.scala:268)
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.executeWrite(FileFormatWriter.s
+cala:306)
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.write(FileFormatWriter.scala:18
+9)
+	at org.apache.spark.sql.executi
+on.datasources.InsertIntoHadoopF
+sRelationCommand.run(InsertIntoH
+adoopFsRelationCommand.scala:195
+)
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.sideEffectResult$lzycompute(co
+mmands.scala:117)
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.sideEffectResult(commands.scal
+a:115)
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.executeCollect(commands.scala:
+129)
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$eager
+lyExecuteCommands$2(QueryExecuti
+on.scala:185)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$8(SQLExecution.sca
+la:177)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withSessionTags
+Applied(SQLExecution.scala:285)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$7(SQLExecution.sca
+la:139)
+	at org.apache.spark.JobArtifact
+Set$.withActiveJobArtifactState(
+JobArtifactSet.scala:94)
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.$anonfun$withR
+esources$1(ArtifactManager.scala
+:112)
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.withClassLoade
+rIfNeeded(ArtifactManager.scala:
+106)
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.withResources(
+ArtifactManager.scala:111)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$6(SQLExecution.sca
+la:139)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withSQLConfProp
+agated(SQLExecution.scala:308)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$1(SQLExecution.sca
+la:138)
+	at org.apache.spark.sql.SparkSe
+ssion.withActive(SparkSession.sc
+ala:804)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withNewExecutio
+nId0(SQLExecution.scala:92)
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withNewExecutio
+nId(SQLExecution.scala:250)
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$eager
+lyExecuteCommands$1(QueryExecuti
+on.scala:185)
+	at org.apache.spark.sql.executi
+on.QueryExecution$.withInternalE
+rror(QueryExecution.scala:717)
+	at org.apache.spark.sql.executi
+on.QueryExecution.org$apache$spa
+rk$sql$execution$QueryExecution$
+$eagerlyExecute$1(QueryExecution
+.scala:184)
+	at org.apache.spark.sql.executi
+on.QueryExecution$$anonfun$eager
+lyExecuteCommands$3.applyOrElse(
+QueryExecution.scala:201)
+	at org.apache.spark.sql.executi
+on.QueryExecution$$anonfun$eager
+lyExecuteCommands$3.applyOrElse(
+QueryExecution.scala:194)
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.$anonfun$transf
+ormDownWithPruning$1(TreeNode.sc
+ala:491)
+	at org.apache.spark.sql.catalys
+t.trees.CurrentOrigin$.withOrigi
+n(origin.scala:107)
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.transformDownWi
+thPruning(TreeNode.scala:491)
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.org$
+apache$spark$sql$catalyst$plans$
+logical$AnalysisHelper$$super$tr
+ansformDownWithPruning(LogicalPl
+an.scala:37)
+	at org.apache.spark.sql.catalys
+t.plans.logical.AnalysisHelper.t
+ransformDownWithPruning(Analysis
+Helper.scala:360)
+	at org.apache.spark.sql.catalys
+t.plans.logical.AnalysisHelper.t
+ransformDownWithPruning$(Analysi
+sHelper.scala:356)
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.tran
+sformDownWithPruning(LogicalPlan
+.scala:37)
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.tran
+sformDownWithPruning(LogicalPlan
+.scala:37)
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.transformDown(T
+reeNode.scala:467)
+	at org.apache.spark.sql.executi
+on.QueryExecution.eagerlyExecute
+Commands(QueryExecution.scala:19
+4)
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$lazyC
+ommandExecuted$1(QueryExecution.
+scala:155)
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+	at org.apache.spark.util.Utils$
+.doTryWithCallerStacktrace(Utils
+.scala:1392)
+	at org.apache.spark.util.Utils$
+.getTryWithCallerStacktrace(Util
+s.scala:1453)
+	at org.apache.spark.util.LazyTr
+y.get(LazyTry.scala:58)
+	at org.apache.spark.sql.executi
+on.QueryExecution.commandExecute
+d(QueryExecution.scala:160)
+	at org.apache.spark.sql.executi
+on.QueryExecution.assertCommandE
+xecuted(QueryExecution.scala:239
+)
+	at org.apache.spark.sql.classic
+.DataFrameWriter.runCommand(Data
+FrameWriter.scala:592)
+	at org.apache.spark.sql.classic
+.DataFrameWriter.save(DataFrameW
+riter.scala:115)
+	at org.apache.spark.sql.DataFra
+meWriter.text(DataFrameWriter.sc
+ala:409)
+	at org.apache.spark.ml.util.Rea
+dWriteUtils$.saveText(ReadWrite.
+scala:1050)
+	at org.apache.spark.ml.util.Def
+aultParamsWriter$.saveMetadata(R
+eadWrite.scala:477)
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.$anonfun$saveI
+mpl$1(Pipeline.scala:264)
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.$anonfun$saveI
+mpl$1$adapted(Pipeline.scala:261
+)
+	at org.apache.spark.ml.util.Ins
+trumentation$.$anonfun$instrumen
+ted$1(Instrumentation.scala:226)
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+	at org.apache.spark.ml.util.Ins
+trumentation$.instrumented(Instr
+umentation.scala:226)
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.saveImpl(Pipel
+ine.scala:261)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.saveIm
+pl(Pipeline.scala:370)
+	at org.apache.spark.ml.util.MLW
+riter.save(ReadWrite.scala:176)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.super$
+save(Pipeline.scala:368)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$4(Pipeline.scala:368)
+	at org.apache.spark.ml.MLEvents
+.withSaveInstanceEvent(events.sc
+ala:174)
+	at org.apache.spark.ml.MLEvents
+.withSaveInstanceEvent$(events.s
+cala:169)
+	at org.apache.spark.ml.util.Ins
+trumentation.withSaveInstanceEve
+nt(Instrumentation.scala:44)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$3(Pipeline.scala:368)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$3$adapted(Pipeline.scala
+:368)
+	at org.apache.spark.ml.util.Ins
+trumentation$.$anonfun$instrumen
+ted$1(Instrumentation.scala:226)
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+	at org.apache.spark.ml.util.Ins
+trumentation$.instrumented(Instr
+umentation.scala:226)
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.save(P
+ipeline.scala:368)
+	at java.base/jdk.internal.refle
+ct.DirectMethodHandleAccessor.in
+voke(DirectMethodHandleAccessor.
+java:103)
+	at java.base/java.lang.reflect.
+Method.invoke(Method.java:580)
+	at py4j.reflection.MethodInvoke
+r.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEn
+gine.invoke(ReflectionEngine.jav
+a:374)
+	at py4j.Gateway.invoke(Gateway.
+java:282)
+	at py4j.commands.AbstractComman
+d.invokeMethod(AbstractCommand.j
+ava:132)
+	at py4j.commands.CallCommand.ex
+ecute(CallCommand.java:79)
+	at py4j.ClientServerConnection.
+waitForCommands(ClientServerConn
+ection.java:184)
+	at py4j.ClientServerConnection.
+run(ClientServerConnection.java:
+108)
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+	Suppressed: org.apache.spark.ut
+il.Utils$OriginalTryStackTraceEx
+ception: Full stacktrace of 
+original 
+doTryWithCallerStacktrace caller
+		at org.apache.hadoop.util.Shel
+l.getWinUtilsPath(Shell.java:789
+)
+		at org.apache.hadoop.util.Shel
+l.getSetPermissionCommand(Shell.
+java:298)
+		at org.apache.hadoop.util.Shel
+l.getSetPermissionCommand(Shell.
+java:314)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.setPermission(RawLo
+calFileSystem.java:1179)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkOneDirWithMode(Ra
+wLocalFileSystem.java:861)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:901)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+		at org.apache.hadoop.fs.Checks
+umFileSystem.mkdirs(ChecksumFile
+System.java:1047)
+		at org.apache.hadoop.mapreduce
+.lib.output.FileOutputCommitter.
+setupJob(FileOutputCommitter.jav
+a:356)
+		at org.apache.spark.internal.i
+o.HadoopMapReduceCommitProtocol.
+setupJob(HadoopMapReduceCommitPr
+otocol.scala:180)
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.writeAndCommit(FileFormatWrite
+r.scala:268)
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.executeWrite(FileFormatWriter.
+scala:306)
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.write(FileFormatWriter.scala:1
+89)
+		at org.apache.spark.sql.execut
+ion.datasources.InsertIntoHadoop
+FsRelationCommand.run(InsertInto
+HadoopFsRelationCommand.scala:19
+5)
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.sideEffectResult$lzycompute(c
+ommands.scala:117)
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.sideEffectResult(commands.sca
+la:115)
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.executeCollect(commands.scala
+:129)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$eage
+rlyExecuteCommands$2(QueryExecut
+ion.scala:185)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$8(SQLExecution.sc
+ala:177)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withSessionTag
+sApplied(SQLExecution.scala:285)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$7(SQLExecution.sc
+ala:139)
+		at org.apache.spark.JobArtifac
+tSet$.withActiveJobArtifactState
+(JobArtifactSet.scala:94)
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.$anonfun$with
+Resources$1(ArtifactManager.scal
+a:112)
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.withClassLoad
+erIfNeeded(ArtifactManager.scala
+:106)
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.withResources
+(ArtifactManager.scala:111)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$6(SQLExecution.sc
+ala:139)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withSQLConfPro
+pagated(SQLExecution.scala:308)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$1(SQLExecution.sc
+ala:138)
+		at org.apache.spark.sql.SparkS
+ession.withActive(SparkSession.s
+cala:804)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withNewExecuti
+onId0(SQLExecution.scala:92)
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withNewExecuti
+onId(SQLExecution.scala:250)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$eage
+rlyExecuteCommands$1(QueryExecut
+ion.scala:185)
+		at org.apache.spark.sql.execut
+ion.QueryExecution$.withInternal
+Error(QueryExecution.scala:717)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.org$apache$sp
+ark$sql$execution$QueryExecution
+$$eagerlyExecute$1(QueryExecutio
+n.scala:184)
+		at org.apache.spark.sql.execut
+ion.QueryExecution$$anonfun$eage
+rlyExecuteCommands$3.applyOrElse
+(QueryExecution.scala:201)
+		at org.apache.spark.sql.execut
+ion.QueryExecution$$anonfun$eage
+rlyExecuteCommands$3.applyOrElse
+(QueryExecution.scala:194)
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.$anonfun$trans
+formDownWithPruning$1(TreeNode.s
+cala:491)
+		at org.apache.spark.sql.cataly
+st.trees.CurrentOrigin$.withOrig
+in(origin.scala:107)
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.transformDownW
+ithPruning(TreeNode.scala:491)
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.org
+$apache$spark$sql$catalyst$plans
+$logical$AnalysisHelper$$super$t
+ransformDownWithPruning(LogicalP
+lan.scala:37)
+		at org.apache.spark.sql.cataly
+st.plans.logical.AnalysisHelper.
+transformDownWithPruning(Analysi
+sHelper.scala:360)
+		at org.apache.spark.sql.cataly
+st.plans.logical.AnalysisHelper.
+transformDownWithPruning$(Analys
+isHelper.scala:356)
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.tra
+nsformDownWithPruning(LogicalPla
+n.scala:37)
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.tra
+nsformDownWithPruning(LogicalPla
+n.scala:37)
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.transformDown(
+TreeNode.scala:467)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.eagerlyExecut
+eCommands(QueryExecution.scala:1
+94)
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$lazy
+CommandExecuted$1(QueryExecution
+.scala:155)
+		at scala.util.Try$.apply(Try.s
+cala:217)
+		at org.apache.spark.util.Utils
+$.doTryWithCallerStacktrace(Util
+s.scala:1392)
+		at org.apache.spark.util.LazyT
+ry.tryT$lzycompute(LazyTry.scala
+:46)
+		at org.apache.spark.util.LazyT
+ry.tryT(LazyTry.scala:46)
+		... 37 more
+Caused by: 
+java.io.FileNotFoundException: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset. -see https://cwiki.ap
+ache.org/confluence/display/HADO
+OP2/WindowsProblems
+	at org.apache.hadoop.util.Shell
+.fileNotFoundException(Shell.jav
+a:601)
+	at org.apache.hadoop.util.Shell
+.getHadoopHomeDir(Shell.java:622
+)
+	at org.apache.hadoop.util.Shell
+.getQualifiedBin(Shell.java:645)
+	at org.apache.hadoop.util.Shell
+.<clinit>(Shell.java:742)
+	at org.apache.hadoop.util.Strin
+gUtils.<clinit>(StringUtils.java
+:80)
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDurationHelper(C
+onfiguration.java:1954)
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDuration(Configu
+ration.java:1912)
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDuration(Configu
+ration.java:1885)
+	at org.apache.hadoop.util.Shutd
+ownHookManager.getShutdownTimeou
+t(ShutdownHookManager.java:183)
+	at org.apache.hadoop.util.Shutd
+ownHookManager$HookEntry.<init>(
+ShutdownHookManager.java:207)
+	at org.apache.hadoop.util.Shutd
+ownHookManager.addShutdownHook(S
+hutdownHookManager.java:304)
+	at org.apache.spark.util.SparkS
+hutdownHookManager.$anonfun$inst
+all$1(ShutdownHookManager.scala:
+194)
+	at scala.runtime.java8.JFunctio
+n0$mcV$sp.apply(JFunction0$mcV$s
+p.scala:18)
+	at scala.Option.fold(Option.sca
+la:263)
+	at org.apache.spark.util.SparkS
+hutdownHookManager.install(Shutd
+ownHookManager.scala:195)
+	at org.apache.spark.util.Shutdo
+wnHookManager$.shutdownHooks$lzy
+compute(ShutdownHookManager.scal
+a:55)
+	at org.apache.spark.util.Shutdo
+wnHookManager$.shutdownHooks(Shu
+tdownHookManager.scala:53)
+	at org.apache.spark.util.Shutdo
+wnHookManager$.addShutdownHook(S
+hutdownHookManager.scala:159)
+	at org.apache.spark.util.Shutdo
+wnHookManager$.<clinit>(Shutdown
+HookManager.scala:63)
+	at org.apache.spark.util.Utils$
+.createTempDir(Utils.scala:249)
+	at org.apache.spark.util.SparkF
+ileUtils.createTempDir(SparkFile
+Utils.scala:125)
+	at org.apache.spark.util.SparkF
+ileUtils.createTempDir$(SparkFil
+eUtils.scala:124)
+	at org.apache.spark.util.Utils$
+.createTempDir(Utils.scala:97)
+	at org.apache.spark.deploy.Spar
+kSubmit.prepareSubmitEnvironment
+(SparkSubmit.scala:378)
+	at org.apache.spark.deploy.Spar
+kSubmit.org$apache$spark$deploy$
+SparkSubmit$$runMain(SparkSubmit
+.scala:962)
+	at org.apache.spark.deploy.Spar
+kSubmit.doRunMain$1(SparkSubmit.
+scala:203)
+	at org.apache.spark.deploy.Spar
+kSubmit.submit(SparkSubmit.scala
+:226)
+	at org.apache.spark.deploy.Spar
+kSubmit.doSubmit(SparkSubmit.sca
+la:95)
+	at org.apache.spark.deploy.Spar
+kSubmit$$anon$2.doSubmit(SparkSu
+bmit.scala:1168)
+	at org.apache.spark.deploy.Spar
+kSubmit$.main(SparkSubmit.scala:
+1177)
+	at org.apache.spark.deploy.Spar
+kSubmit.main(SparkSubmit.scala)
+Caused by: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset.
+	at org.apache.hadoop.util.Shell
+.checkHadoopHomeInner(Shell.java
+:521)
+	at org.apache.hadoop.util.Shell
+.checkHadoopHome(Shell.java:492)
+	at org.apache.hadoop.util.Shell
+.<clinit>(Shell.java:569)
+	... 27 more
+
+Training model...
+Model Accuracy: 0.4782
+Traceback (most recent call 
+last):
+  File "D:\Sem6\BigData\project\
+modules\module5_ml\ml_attack_det
+ection.py", line 95, in <module>
+    train_and_save_model()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Sem6\BigData\project\
+modules\module5_ml\ml_attack_det
+ection.py", line 91, in 
+train_and_save_model
+    model.save(model_path)
+    ~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Python\Lib\site-packa
+ges\pyspark\ml\util.py", line 
+691, in save
+    self.write().save(path)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python\Lib\site-packa
+ges\pyspark\ml\util.py", line 
+642, in save
+    self._jwrite.save(path)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Python\Lib\site-packa
+ges\py4j\java_gateway.py", line 
+1362, in __call__
+    return_value = 
+get_return_value(
+        answer, 
+self.gateway_client, 
+self.target_id, self.name)
+  File "D:\Python\Lib\site-packa
+ges\pyspark\errors\exceptions\ca
+ptured.py", line 263, in deco
+    return f(*a, **kw)
+  File "D:\Python\Lib\site-packa
+ges\py4j\protocol.py", line 
+327, in get_return_value
+    raise Py4JJavaError(
+        "An error occurred 
+while calling {0}{1}{2}.\n".
+        format(target_id, ".", 
+name), value)
+py4j.protocol.Py4JJavaError: An 
+error occurred while calling 
+o1007.save.
+: java.lang.RuntimeException: 
+java.io.FileNotFoundException: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset. -see https://cwiki.ap
+ache.org/confluence/display/HADO
+OP2/WindowsProblems
+
+	at org.apache.hadoop.util.Shell
+.getWinUtilsPath(Shell.java:789)
+
+	at org.apache.hadoop.util.Shell
+.getSetPermissionCommand(Shell.j
+ava:298)
+
+	at org.apache.hadoop.util.Shell
+.getSetPermissionCommand(Shell.j
+ava:314)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.setPermission(RawLoc
+alFileSystem.java:1179)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkOneDirWithMode(Raw
+LocalFileSystem.java:861)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:901)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirsWithOptionalPe
+rmission(RawLocalFileSystem.java
+:900)
+
+	at org.apache.hadoop.fs.RawLoca
+lFileSystem.mkdirs(RawLocalFileS
+ystem.java:873)
+
+	at org.apache.hadoop.fs.Checksu
+mFileSystem.mkdirs(ChecksumFileS
+ystem.java:1047)
+
+	at org.apache.hadoop.mapreduce.
+lib.output.FileOutputCommitter.s
+etupJob(FileOutputCommitter.java
+:356)
+
+	at org.apache.spark.internal.io
+.HadoopMapReduceCommitProtocol.s
+etupJob(HadoopMapReduceCommitPro
+tocol.scala:180)
+
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.writeAndCommit(FileFormatWriter
+.scala:268)
+
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.executeWrite(FileFormatWriter.s
+cala:306)
+
+	at org.apache.spark.sql.executi
+on.datasources.FileFormatWriter$
+.write(FileFormatWriter.scala:18
+9)
+
+	at org.apache.spark.sql.executi
+on.datasources.InsertIntoHadoopF
+sRelationCommand.run(InsertIntoH
+adoopFsRelationCommand.scala:195
+)
+
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.sideEffectResult$lzycompute(co
+mmands.scala:117)
+
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.sideEffectResult(commands.scal
+a:115)
+
+	at org.apache.spark.sql.executi
+on.command.DataWritingCommandExe
+c.executeCollect(commands.scala:
+129)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$eager
+lyExecuteCommands$2(QueryExecuti
+on.scala:185)
+
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$8(SQLExecution.sca
+la:177)
+
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withSessionTags
+Applied(SQLExecution.scala:285)
+
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$7(SQLExecution.sca
+la:139)
+
+	at org.apache.spark.JobArtifact
+Set$.withActiveJobArtifactState(
+JobArtifactSet.scala:94)
+
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.$anonfun$withR
+esources$1(ArtifactManager.scala
+:112)
+
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.withClassLoade
+rIfNeeded(ArtifactManager.scala:
+106)
+
+	at org.apache.spark.sql.artifac
+t.ArtifactManager.withResources(
+ArtifactManager.scala:111)
+
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$6(SQLExecution.sca
+la:139)
+
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withSQLConfProp
+agated(SQLExecution.scala:308)
+
+	at org.apache.spark.sql.executi
+on.SQLExecution$.$anonfun$withNe
+wExecutionId0$1(SQLExecution.sca
+la:138)
+
+	at org.apache.spark.sql.SparkSe
+ssion.withActive(SparkSession.sc
+ala:804)
+
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withNewExecutio
+nId0(SQLExecution.scala:92)
+
+	at org.apache.spark.sql.executi
+on.SQLExecution$.withNewExecutio
+nId(SQLExecution.scala:250)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$eager
+lyExecuteCommands$1(QueryExecuti
+on.scala:185)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution$.withInternalE
+rror(QueryExecution.scala:717)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution.org$apache$spa
+rk$sql$execution$QueryExecution$
+$eagerlyExecute$1(QueryExecution
+.scala:184)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution$$anonfun$eager
+lyExecuteCommands$3.applyOrElse(
+QueryExecution.scala:201)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution$$anonfun$eager
+lyExecuteCommands$3.applyOrElse(
+QueryExecution.scala:194)
+
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.$anonfun$transf
+ormDownWithPruning$1(TreeNode.sc
+ala:491)
+
+	at org.apache.spark.sql.catalys
+t.trees.CurrentOrigin$.withOrigi
+n(origin.scala:107)
+
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.transformDownWi
+thPruning(TreeNode.scala:491)
+
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.org$
+apache$spark$sql$catalyst$plans$
+logical$AnalysisHelper$$super$tr
+ansformDownWithPruning(LogicalPl
+an.scala:37)
+
+	at org.apache.spark.sql.catalys
+t.plans.logical.AnalysisHelper.t
+ransformDownWithPruning(Analysis
+Helper.scala:360)
+
+	at org.apache.spark.sql.catalys
+t.plans.logical.AnalysisHelper.t
+ransformDownWithPruning$(Analysi
+sHelper.scala:356)
+
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.tran
+sformDownWithPruning(LogicalPlan
+.scala:37)
+
+	at org.apache.spark.sql.catalys
+t.plans.logical.LogicalPlan.tran
+sformDownWithPruning(LogicalPlan
+.scala:37)
+
+	at org.apache.spark.sql.catalys
+t.trees.TreeNode.transformDown(T
+reeNode.scala:467)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution.eagerlyExecute
+Commands(QueryExecution.scala:19
+4)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution.$anonfun$lazyC
+ommandExecuted$1(QueryExecution.
+scala:155)
+
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+
+	at org.apache.spark.util.Utils$
+.doTryWithCallerStacktrace(Utils
+.scala:1392)
+
+	at org.apache.spark.util.Utils$
+.getTryWithCallerStacktrace(Util
+s.scala:1453)
+
+	at org.apache.spark.util.LazyTr
+y.get(LazyTry.scala:58)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution.commandExecute
+d(QueryExecution.scala:160)
+
+	at org.apache.spark.sql.executi
+on.QueryExecution.assertCommandE
+xecuted(QueryExecution.scala:239
+)
+
+	at org.apache.spark.sql.classic
+.DataFrameWriter.runCommand(Data
+FrameWriter.scala:592)
+
+	at org.apache.spark.sql.classic
+.DataFrameWriter.save(DataFrameW
+riter.scala:115)
+
+	at org.apache.spark.sql.DataFra
+meWriter.text(DataFrameWriter.sc
+ala:409)
+
+	at org.apache.spark.ml.util.Rea
+dWriteUtils$.saveText(ReadWrite.
+scala:1050)
+
+	at org.apache.spark.ml.util.Def
+aultParamsWriter$.saveMetadata(R
+eadWrite.scala:477)
+
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.$anonfun$saveI
+mpl$1(Pipeline.scala:264)
+
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.$anonfun$saveI
+mpl$1$adapted(Pipeline.scala:261
+)
+
+	at org.apache.spark.ml.util.Ins
+trumentation$.$anonfun$instrumen
+ted$1(Instrumentation.scala:226)
+
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+
+	at org.apache.spark.ml.util.Ins
+trumentation$.instrumented(Instr
+umentation.scala:226)
+
+	at org.apache.spark.ml.Pipeline
+$SharedReadWrite$.saveImpl(Pipel
+ine.scala:261)
+
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.saveIm
+pl(Pipeline.scala:370)
+
+	at org.apache.spark.ml.util.MLW
+riter.save(ReadWrite.scala:176)
+
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.super$
+save(Pipeline.scala:368)
+
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$4(Pipeline.scala:368)
+
+	at org.apache.spark.ml.MLEvents
+.withSaveInstanceEvent(events.sc
+ala:174)
+
+	at org.apache.spark.ml.MLEvents
+.withSaveInstanceEvent$(events.s
+cala:169)
+
+	at org.apache.spark.ml.util.Ins
+trumentation.withSaveInstanceEve
+nt(Instrumentation.scala:44)
+
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$3(Pipeline.scala:368)
+
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.$anonf
+un$save$3$adapted(Pipeline.scala
+:368)
+
+	at org.apache.spark.ml.util.Ins
+trumentation$.$anonfun$instrumen
+ted$1(Instrumentation.scala:226)
+
+	at scala.util.Try$.apply(Try.sc
+ala:217)
+
+	at org.apache.spark.ml.util.Ins
+trumentation$.instrumented(Instr
+umentation.scala:226)
+
+	at org.apache.spark.ml.Pipeline
+Model$PipelineModelWriter.save(P
+ipeline.scala:368)
+
+	at java.base/jdk.internal.refle
+ct.DirectMethodHandleAccessor.in
+voke(DirectMethodHandleAccessor.
+java:103)
+
+	at java.base/java.lang.reflect.
+Method.invoke(Method.java:580)
+
+	at py4j.reflection.MethodInvoke
+r.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEn
+gine.invoke(ReflectionEngine.jav
+a:374)
+
+	at py4j.Gateway.invoke(Gateway.
+java:282)
+
+	at py4j.commands.AbstractComman
+d.invokeMethod(AbstractCommand.j
+ava:132)
+
+	at py4j.commands.CallCommand.ex
+ecute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.
+waitForCommands(ClientServerConn
+ection.java:184)
+
+	at py4j.ClientServerConnection.
+run(ClientServerConnection.java:
+108)
+
+	at java.base/java.lang.Thread.r
+un(Thread.java:1570)
+
+	Suppressed: org.apache.spark.ut
+il.Utils$OriginalTryStackTraceEx
+ception: Full stacktrace of 
+original 
+doTryWithCallerStacktrace caller
+
+		at org.apache.hadoop.util.Shel
+l.getWinUtilsPath(Shell.java:789
+)
+
+		at org.apache.hadoop.util.Shel
+l.getSetPermissionCommand(Shell.
+java:298)
+
+		at org.apache.hadoop.util.Shel
+l.getSetPermissionCommand(Shell.
+java:314)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.setPermission(RawLo
+calFileSystem.java:1179)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkOneDirWithMode(Ra
+wLocalFileSystem.java:861)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:901)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirsWithOptionalP
+ermission(RawLocalFileSystem.jav
+a:900)
+
+		at org.apache.hadoop.fs.RawLoc
+alFileSystem.mkdirs(RawLocalFile
+System.java:873)
+
+		at org.apache.hadoop.fs.Checks
+umFileSystem.mkdirs(ChecksumFile
+System.java:1047)
+
+		at org.apache.hadoop.mapreduce
+.lib.output.FileOutputCommitter.
+setupJob(FileOutputCommitter.jav
+a:356)
+
+		at org.apache.spark.internal.i
+o.HadoopMapReduceCommitProtocol.
+setupJob(HadoopMapReduceCommitPr
+otocol.scala:180)
+
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.writeAndCommit(FileFormatWrite
+r.scala:268)
+
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.executeWrite(FileFormatWriter.
+scala:306)
+
+		at org.apache.spark.sql.execut
+ion.datasources.FileFormatWriter
+$.write(FileFormatWriter.scala:1
+89)
+
+		at org.apache.spark.sql.execut
+ion.datasources.InsertIntoHadoop
+FsRelationCommand.run(InsertInto
+HadoopFsRelationCommand.scala:19
+5)
+
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.sideEffectResult$lzycompute(c
+ommands.scala:117)
+
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.sideEffectResult(commands.sca
+la:115)
+
+		at org.apache.spark.sql.execut
+ion.command.DataWritingCommandEx
+ec.executeCollect(commands.scala
+:129)
+
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$eage
+rlyExecuteCommands$2(QueryExecut
+ion.scala:185)
+
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$8(SQLExecution.sc
+ala:177)
+
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withSessionTag
+sApplied(SQLExecution.scala:285)
+
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$7(SQLExecution.sc
+ala:139)
+
+		at org.apache.spark.JobArtifac
+tSet$.withActiveJobArtifactState
+(JobArtifactSet.scala:94)
+
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.$anonfun$with
+Resources$1(ArtifactManager.scal
+a:112)
+
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.withClassLoad
+erIfNeeded(ArtifactManager.scala
+:106)
+
+		at org.apache.spark.sql.artifa
+ct.ArtifactManager.withResources
+(ArtifactManager.scala:111)
+
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$6(SQLExecution.sc
+ala:139)
+
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withSQLConfPro
+pagated(SQLExecution.scala:308)
+
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.$anonfun$withN
+ewExecutionId0$1(SQLExecution.sc
+ala:138)
+
+		at org.apache.spark.sql.SparkS
+ession.withActive(SparkSession.s
+cala:804)
+
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withNewExecuti
+onId0(SQLExecution.scala:92)
+
+		at org.apache.spark.sql.execut
+ion.SQLExecution$.withNewExecuti
+onId(SQLExecution.scala:250)
+
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$eage
+rlyExecuteCommands$1(QueryExecut
+ion.scala:185)
+
+		at org.apache.spark.sql.execut
+ion.QueryExecution$.withInternal
+Error(QueryExecution.scala:717)
+
+		at org.apache.spark.sql.execut
+ion.QueryExecution.org$apache$sp
+ark$sql$execution$QueryExecution
+$$eagerlyExecute$1(QueryExecutio
+n.scala:184)
+
+		at org.apache.spark.sql.execut
+ion.QueryExecution$$anonfun$eage
+rlyExecuteCommands$3.applyOrElse
+(QueryExecution.scala:201)
+
+		at org.apache.spark.sql.execut
+ion.QueryExecution$$anonfun$eage
+rlyExecuteCommands$3.applyOrElse
+(QueryExecution.scala:194)
+
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.$anonfun$trans
+formDownWithPruning$1(TreeNode.s
+cala:491)
+
+		at org.apache.spark.sql.cataly
+st.trees.CurrentOrigin$.withOrig
+in(origin.scala:107)
+
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.transformDownW
+ithPruning(TreeNode.scala:491)
+
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.org
+$apache$spark$sql$catalyst$plans
+$logical$AnalysisHelper$$super$t
+ransformDownWithPruning(LogicalP
+lan.scala:37)
+
+		at org.apache.spark.sql.cataly
+st.plans.logical.AnalysisHelper.
+transformDownWithPruning(Analysi
+sHelper.scala:360)
+
+		at org.apache.spark.sql.cataly
+st.plans.logical.AnalysisHelper.
+transformDownWithPruning$(Analys
+isHelper.scala:356)
+
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.tra
+nsformDownWithPruning(LogicalPla
+n.scala:37)
+
+		at org.apache.spark.sql.cataly
+st.plans.logical.LogicalPlan.tra
+nsformDownWithPruning(LogicalPla
+n.scala:37)
+
+		at org.apache.spark.sql.cataly
+st.trees.TreeNode.transformDown(
+TreeNode.scala:467)
+
+		at org.apache.spark.sql.execut
+ion.QueryExecution.eagerlyExecut
+eCommands(QueryExecution.scala:1
+94)
+
+		at org.apache.spark.sql.execut
+ion.QueryExecution.$anonfun$lazy
+CommandExecuted$1(QueryExecution
+.scala:155)
+
+		at scala.util.Try$.apply(Try.s
+cala:217)
+
+		at org.apache.spark.util.Utils
+$.doTryWithCallerStacktrace(Util
+s.scala:1392)
+
+		at org.apache.spark.util.LazyT
+ry.tryT$lzycompute(LazyTry.scala
+:46)
+
+		at org.apache.spark.util.LazyT
+ry.tryT(LazyTry.scala:46)
+
+		... 37 more
+
+Caused by: 
+java.io.FileNotFoundException: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset. -see https://cwiki.ap
+ache.org/confluence/display/HADO
+OP2/WindowsProblems
+
+	at org.apache.hadoop.util.Shell
+.fileNotFoundException(Shell.jav
+a:601)
+
+	at org.apache.hadoop.util.Shell
+.getHadoopHomeDir(Shell.java:622
+)
+
+	at org.apache.hadoop.util.Shell
+.getQualifiedBin(Shell.java:645)
+
+	at org.apache.hadoop.util.Shell
+.<clinit>(Shell.java:742)
+
+	at org.apache.hadoop.util.Strin
+gUtils.<clinit>(StringUtils.java
+:80)
+
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDurationHelper(C
+onfiguration.java:1954)
+
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDuration(Configu
+ration.java:1912)
+
+	at org.apache.hadoop.conf.Confi
+guration.getTimeDuration(Configu
+ration.java:1885)
+
+	at org.apache.hadoop.util.Shutd
+ownHookManager.getShutdownTimeou
+t(ShutdownHookManager.java:183)
+
+	at org.apache.hadoop.util.Shutd
+ownHookManager$HookEntry.<init>(
+ShutdownHookManager.java:207)
+
+	at org.apache.hadoop.util.Shutd
+ownHookManager.addShutdownHook(S
+hutdownHookManager.java:304)
+
+	at org.apache.spark.util.SparkS
+hutdownHookManager.$anonfun$inst
+all$1(ShutdownHookManager.scala:
+194)
+
+	at scala.runtime.java8.JFunctio
+n0$mcV$sp.apply(JFunction0$mcV$s
+p.scala:18)
+
+	at scala.Option.fold(Option.sca
+la:263)
+
+	at org.apache.spark.util.SparkS
+hutdownHookManager.install(Shutd
+ownHookManager.scala:195)
+
+	at org.apache.spark.util.Shutdo
+wnHookManager$.shutdownHooks$lzy
+compute(ShutdownHookManager.scal
+a:55)
+
+	at org.apache.spark.util.Shutdo
+wnHookManager$.shutdownHooks(Shu
+tdownHookManager.scala:53)
+
+	at org.apache.spark.util.Shutdo
+wnHookManager$.addShutdownHook(S
+hutdownHookManager.scala:159)
+
+	at org.apache.spark.util.Shutdo
+wnHookManager$.<clinit>(Shutdown
+HookManager.scala:63)
+
+	at org.apache.spark.util.Utils$
+.createTempDir(Utils.scala:249)
+
+	at org.apache.spark.util.SparkF
+ileUtils.createTempDir(SparkFile
+Utils.scala:125)
+
+	at org.apache.spark.util.SparkF
+ileUtils.createTempDir$(SparkFil
+eUtils.scala:124)
+
+	at org.apache.spark.util.Utils$
+.createTempDir(Utils.scala:97)
+
+	at org.apache.spark.deploy.Spar
+kSubmit.prepareSubmitEnvironment
+(SparkSubmit.scala:378)
+
+	at org.apache.spark.deploy.Spar
+kSubmit.org$apache$spark$deploy$
+SparkSubmit$$runMain(SparkSubmit
+.scala:962)
+
+	at org.apache.spark.deploy.Spar
+kSubmit.doRunMain$1(SparkSubmit.
+scala:203)
+
+	at org.apache.spark.deploy.Spar
+kSubmit.submit(SparkSubmit.scala
+:226)
+
+	at org.apache.spark.deploy.Spar
+kSubmit.doSubmit(SparkSubmit.sca
+la:95)
+
+	at org.apache.spark.deploy.Spar
+kSubmit$$anon$2.doSubmit(SparkSu
+bmit.scala:1168)
+
+	at org.apache.spark.deploy.Spar
+kSubmit$.main(SparkSubmit.scala:
+1177)
+
+	at org.apache.spark.deploy.Spar
+kSubmit.main(SparkSubmit.scala)
+
+Caused by: 
+java.io.FileNotFoundException: 
+HADOOP_HOME and hadoop.home.dir 
+are unset.
+
+	at org.apache.hadoop.util.Shell
+.checkHadoopHomeInner(Shell.java
+:521)
+
+	at org.apache.hadoop.util.Shell
+.checkHadoopHome(Shell.java:492)
+
+	at org.apache.hadoop.util.Shell
+.<clinit>(Shell.java:569)
+
+	... 27 more
+
+
+SUCCESS: The process with PID 15808 (child process of PID 5184) has been terminated.
+SUCCESS: The process with PID 5184 (child process of PID 464) has been terminated.
+SUCCESS: The process with PID 464 (child process of PID 7596) has been terminated.
